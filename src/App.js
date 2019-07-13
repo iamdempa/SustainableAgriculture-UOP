@@ -29,7 +29,7 @@ export default class App extends Component{
 
         <nav className="navbar navbar-expand-lg navbar-light">
           <div className="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
+            
             <a className="navbar-brand logo_h" href="index.html"
               ><img src="img/logo.png" alt=""
             /></a>
@@ -45,7 +45,7 @@ export default class App extends Component{
               <span className="icon-bar"></span> <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <!-- Collect the nav links, forms, and other content for toggling -->
+            
             <div
               className="collapse navbar-collapse offset"
               id="navbarSupportedContent"
