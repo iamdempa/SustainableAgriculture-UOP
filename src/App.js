@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import HomepageBannerArea from './components/homepage-banner-area';
 
 export default class App extends Component {
   render() {
@@ -104,6 +105,9 @@ export default class App extends Component {
             </nav>
           </div>
         </header>
+
+        {/* Homepage Banner Area */}
+        <HomepageBannerArea />
       </div>
     );
   }
