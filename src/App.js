@@ -5,29 +5,7 @@ export default class App extends Component {
     return (
       <div>
         <header className="header_area">
-          <div className="main_menu">
-            <div className="search_input" id="search_input_box">
-              <div className="container">
-                <form
-                  className="d-flex justify-content-between"
-                  method=""
-                  action=""
-                >
-                  <input
-                    type="text"
-                    className="form-control"
-                    id="search_input"
-                    placeholder="Search Here"
-                  />
-                  <button type="submit" className="btn" />
-                  <span
-                    className="ti-close"
-                    id="close_search"
-                    title="Close Search"
-                  />
-                </form>
-              </div>
-            </div>
+          <div className="main_menu">            
 
             <nav className="navbar navbar-expand-lg navbar-light">
               <div className="container">
@@ -119,12 +97,7 @@ export default class App extends Component {
                       <a className="nav-link" href="contact.html">
                         Contact
                       </a>
-                    </li>
-                    <li className="nav-item">
-                      <a href="#" className="nav-link search" id="search">
-                        <i className="ti-search" />
-                      </a>
-                    </li>
+                    </li>                    
                   </ul>
                 </div>
               </div>
