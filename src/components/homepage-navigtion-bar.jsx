@@ -39,59 +39,7 @@ export default class HomepageNavigationBar extends Component {
                         About project
                       </a>
                     </li>
-                    <li className="nav-item submenu dropdown">
-                      <a
-                        href="index.html"
-                        className="nav-link dropdown-toggle"
-                        data-toggle="dropdown"
-                        role="button"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        Contact
-                      </a>
-                      <ul className="dropdown-menu">
-                        <li className="nav-item">
-                          <a className="nav-link" href="courses.html">
-                            Courses
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a className="nav-link" href="course-details.html">
-                            Course Details
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a className="nav-link" href="elements.html">
-                            Elements
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="nav-item submenu dropdown">
-                      <a
-                        href="index.html"
-                        className="nav-link dropdown-toggle"
-                        data-toggle="dropdown"
-                        role="button"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        Blog
-                      </a>
-                      <ul className="dropdown-menu">
-                        <li className="nav-item">
-                          <a className="nav-link" href="blog.html">
-                            Blog
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a className="nav-link" href="single-blog.html">
-                            Blog Details
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
+                                        
                     <li className="nav-item">
                       <a className="nav-link" href="contact.html">
                         Contact
