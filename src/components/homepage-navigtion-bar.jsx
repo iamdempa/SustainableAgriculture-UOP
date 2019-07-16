@@ -36,7 +36,7 @@ export default class HomepageNavigationBar extends Component {
                     </li>
                     <li className="nav-item">
                       <a className="nav-link" href="about-us.html">
-                        About
+                        About project
                       </a>
                     </li>
                     <li className="nav-item submenu dropdown">
@@ -48,7 +48,7 @@ export default class HomepageNavigationBar extends Component {
                         aria-haspopup="true"
                         aria-expanded="false"
                       >
-                        Pages
+                        Contact
                       </a>
                       <ul className="dropdown-menu">
                         <li className="nav-item">
