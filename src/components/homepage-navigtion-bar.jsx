@@ -9,7 +9,7 @@ export default class HomepageNavigationBar extends Component {
             <nav className="navbar navbar-expand-lg navbar-light">
               <div className="container">
                 <a className="navbar-brand logo_h" href="index.html">
-                  <img src="img/logo.png" alt="" />
+                  <img style={{height:75,width:'auto'}} src="img/logo.png" alt="" />
                 </a>
                 <button
                   className="navbar-toggler"
