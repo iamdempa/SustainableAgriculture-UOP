@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
+
 export default class HomepageNavigationBar extends Component {
   render() {
-    return (
-      <div>
+    return (      
         <header className="header_area">
           <div className="main_menu">
             <nav className="navbar navbar-expand-lg navbar-light">
@@ -41,7 +41,7 @@ export default class HomepageNavigationBar extends Component {
                     </li>
                     <li className="nav-item submenu dropdown">
                       <a
-                        href="#"
+                        href="index.html"
                         className="nav-link dropdown-toggle"
                         data-toggle="dropdown"
                         role="button"
@@ -70,7 +70,7 @@ export default class HomepageNavigationBar extends Component {
                     </li>
                     <li className="nav-item submenu dropdown">
                       <a
-                        href="#"
+                        href="index.html"
                         className="nav-link dropdown-toggle"
                         data-toggle="dropdown"
                         role="button"
@@ -103,7 +103,7 @@ export default class HomepageNavigationBar extends Component {
             </nav>
           </div>
         </header>
-      </div>
+      
     );
   }
 }

@@ -3,6 +3,8 @@ import HomepageBannerArea from './components/homepage-banner-area';
 import HomepageNavigationBar from './components/homepage-navigtion-bar';
 import HomepageFeatureArea from './components/homepage-feature-area';
 
+// import EntireHomepage from './components/entire-homepage';
+
 export default class App extends Component {
   render() {
     return (
@@ -15,6 +17,8 @@ export default class App extends Component {
 
         {/* Homepage feature area */}
         <HomepageFeatureArea />
+
+        {/* <EntireHomepage /> */}
       </div>
     );
   }

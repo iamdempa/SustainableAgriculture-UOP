@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+// import $ from 'jquery'; 
+
 
 export default class HomepageBannerArea extends Component {
   render() {
@@ -17,10 +19,10 @@ export default class HomepageBannerArea extends Component {
                       One Step Ahead This Season
                     </h2>
                     <div>
-                      <a href="#" className="primary-btn2 mb-3 mb-sm-0">
+                      <a href="index.html" className="primary-btn2 mb-3 mb-sm-0">
                         learn more
                       </a>
-                      <a href="#" className="primary-btn ml-sm-3 ml-0">
+                      <a href="index.html" className="primary-btn ml-sm-3 ml-0">
                         see course
                       </a>
                     </div>

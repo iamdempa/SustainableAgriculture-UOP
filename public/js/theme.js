@@ -1,22 +1,28 @@
 (function($) {
-  "use strict";
-
+  "use strict"
   var nav_offset_top = $("header").height() + 50;
+  console.log(nav_offset_top);
   /*-------------------------------------------------------------------------------
 	  Navbar 
 	-------------------------------------------------------------------------------*/
-
   //* Navbar Fixed
+
   function navbarFixed() {
+    
     if ($(".header_area").length) {
+      
       $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         if (scroll >= nav_offset_top) {
+          this.console.log('done');
           $(".header_area").addClass("navbar_fixed");
         } else {
+          
           $(".header_area").removeClass("navbar_fixed");
         }
       });
+    }else{
+      alert($(".header_area").length);
     }
   }
   navbarFixed();
