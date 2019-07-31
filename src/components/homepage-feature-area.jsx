@@ -25,7 +25,7 @@ export default class HomepageFeatureArea extends Component {
                     <span className="flaticon-student" />
                   </div>
                   <div className="desc">
-                    <h4 className="mt-3 mb-2">Agricultural Facilities</h4>
+                    <h4 className="mt-3 mb-2">Innovations</h4>
                     <p>
                       blah blah blah blah blah
                     </p>
@@ -39,7 +39,7 @@ export default class HomepageFeatureArea extends Component {
                     <span className="flaticon-book" />
                   </div>
                   <div className="desc">
-                  <h4 className="mt-3 mb-2">Agricultural Facilities</h4>
+                  <h4 className="mt-3 mb-2">Traditional</h4>
                     <p>
                       blah blah blah blah blah
                     </p>
@@ -53,13 +53,43 @@ export default class HomepageFeatureArea extends Component {
                     <span className="flaticon-earth" />
                   </div>
                   <div className="desc">
-                  <h4 className="mt-3 mb-2">Agricultural Facilities</h4>
+                  <h4 className="mt-3 mb-2">Places</h4>
                     <p>
                       blah blah blah blah blah
                     </p>
                   </div>
                 </div>
               </div>
+
+              <div className="col-lg-4 col-md-6">
+                <div className="single_feature">
+                  <div className="icon">
+                    <span className="flaticon-earth" />
+                  </div>
+                  <div className="desc">
+                  <h4 className="mt-3 mb-2">Products</h4>
+                    <p>
+                      blah blah blah blah blah
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-4 col-md-6">
+                <div className="single_feature">
+                  <div className="icon">
+                    <span className="flaticon-earth" />
+                  </div>
+                  <div className="desc">
+                  <h4 className="mt-3 mb-2">Services</h4>
+                    <p>
+                      blah blah blah blah blah
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
             </div>
           </div>
         </section>
